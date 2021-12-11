@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Import style.css-->
+      <link rel="stylesheet" href="style.css">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <div class="navbar-fixed">
+            <nav class="indigo accent-2">
+            <div class="container">
+              <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"><i class="large material-icons">my_location</i></a>
+                <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                  <li><a href="">About Us</a></li>
+                  <li><a href="">Clients</a></li>
+                  <li><a href="">Services</a></li>
+                  <li><a href="">Portfolio</a></li>
+                  <li><a href="">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+            </nav>
+          </div>
+
+        <!-- Sidenav -->
+        <ul class="sidenav" id="mobile-nav">
+            <li><a href="">About Us</a></li>
+            <li><a href="">Clients</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+
+        <!-- Slider -->
+        <div class="slider">
+          <ul class="slides">
+            <li>
+              <img src="img/slider/1.png"> 
+              <div class="caption center-align">
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+
+            <li>
+              <img src="img/slider/2.png"> 
+              <div class="caption center-align">
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+
+            <li>
+              <img src="img/slider/3.png"> 
+              <div class="caption center-align">
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+
+            <li>
+              <img src="img/slider/4.png"> 
+              <div class="caption center-align">
+                <h3>This is our big Tagline!</h3>
+                <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- About Us -->
+        <section class="about-us" id="about-us">
+          <div class="container">
+            <div class="row">
+              <h4 class="center medium">About Us</h4>
+              <div class="col m6 light">
+                <h5>We Are Profesionals</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Accusantium deleniti inventore voluptatum velit itaque molestias 
+                  nam laudantium doloribus, 
+                  voluptatibus esse eius maxime 
+                  laborum molestiae soluta quisquam fugiat a iure blanditiis!</p>
+              </div>
+              <div class="col m6 s12 light">
+                <p>WEB DEVELOPMENT</p>
+                <div class="progress">
+                  <div class="determinate indigo accent-2" style="width: 90%"></div>
+              </div>
+              <p>MOBILE APP DEVELOPMENT</p>
+                <div class="progress">
+                  <div class="determinate indigo accent-2" style="width: 80%"></div>
+              </div>
+              <p>DATABASE DEVELOPMENT</p>
+                <div class="progress">
+                  <div class="determinate indigo accent-2" style="width: 70%"></div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Clients Parallax-->
+        <div class="parallax-container">
+          <div class="parallax"><img src="img/slider/4.png"></div>
+
+          <div class="container clients">
+            <h3 class="center medium white-text">OUR CLIENTS</h3>
+            <div class="row">
+              <div class="col m4 s12 center">
+                <img src="img/clients/gojek.png" alt="image">
+              </div>
+              <div class="col m4 s12 center">
+                <img src="img/clients/tokopedia.png" alt="image">
+              </div>
+              <div class="col m4 s12 center">
+                <img src="img/clients/traveloka.png" alt="image">
+              </div>
+            </div>
+          </div>
+        </div>
+            
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        // sidenav initialization
+          document.addEventListener('DOMContentLoaded', function() {
+              const sideNav = document.querySelectorAll('.sidenav');
+              M.Sidenav.init(sideNav);
+            });
+
+        // slider initialization
+        document.addEventListener('DOMContentLoaded', function() {
+              const slider = document.querySelectorAll('.slider');
+              M.Slider.init(slider, {
+                indicators: false,
+                height: 400,
+                duration: 500,
+                interval: 2000
+              });
+            });
+        document.addEventListener('DOMContentLoaded', function() {
+            const parallax = document.querySelectorAll('.parallax');
+            M.Parallax.init(parallax);
+          });
+      </script>
+    </body>
+  </html>
