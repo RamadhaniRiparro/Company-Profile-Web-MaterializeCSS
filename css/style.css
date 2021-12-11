@@ -1,0 +1,42 @@
+body nav {
+    box-shadow: none;
+}
+
+body #logo {
+    width: 20%;
+    height: 15%;
+    margin-left: -80px;
+}
+
+body #nav-list .btn {
+    margin-right: -80px;
+}
+
+body i.icon-blue {
+    color:rgb(38, 180, 228);
+}
+
+section .row-home {
+    margin-top: 15%;
+    margin-left: -85px;
+}
+section h2 {
+    font-weight: larger;
+}
+.input-field input#first_name,
+input#phone_number, input#email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgba(198, 215, 218, 0.897);
+    text-decoration: none;
+  }
+::placeholder { /* Microsoft Edge */
+    color: grey;
+  }
+@media screen and (max-width: 480px) {
+    body #logo{
+      margin-left: 5%;
+    }
+  }
