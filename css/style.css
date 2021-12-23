@@ -1,10 +1,8 @@
-body nav {
-    box-shadow: none;
-}
+
 
 body #logo {
-    width: 20%;
-    height: 15%;
+    width: 10%;
+    height: 5%;
     margin-left: -80px;
 }
 
@@ -12,31 +10,42 @@ body #nav-list .btn {
     margin-right: -80px;
 }
 
-body i.icon-blue {
-    color:rgb(38, 180, 228);
+body i.icon-black {
+    color: black;
 }
 
-section .row-home {
-    margin-top: 15%;
-    margin-left: -85px;
+body .slider-capt {
+    text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.6);
 }
-section h2 {
-    font-weight: larger;
+
+body .teal-text {
+    text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.1);
 }
-.input-field input#first_name,
-input#phone_number, input#email {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    background-color: rgba(198, 215, 218, 0.897);
-    text-decoration: none;
-  }
-::placeholder { /* Microsoft Edge */
-    color: grey;
-  }
+
+body .card-panel {
+    border: 1px solid rgb(38, 228, 101);
+    border-radius: 5px;
+}
+body .responsive-img {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+body .contact-title {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+section, footer {
+    padding: 20px 0;
+}
 @media screen and (max-width: 480px) {
     body #logo{
-      margin-left: 5%;
+      margin-left: 7%;
+      margin-top: 5%;
+    }
+    #capt {
+        text-align: center;
+        
     }
   }

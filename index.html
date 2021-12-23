@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
   <head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -9,30 +9,29 @@
     <link rel="stylesheet" href="css/style.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>Company Profile</title>
+    <title>Company Profile</title>
   </head>
 
-  <body> 
+  <body id="home"> 
       <!-- Navbar -->
       <div class="navbar-fixed">
         <!-- Dropdown Structure -->
         <ul id="dropdown1" class="dropdown-content">
-          <li><a class="black-text" href="#!">Residential Garages</a></li>
-          <li><a class="black-text" href="#!">Commercial Garages</a></li>
-          <li><a class="black-text" href="#!">Entry Doors</a></li>
-          <li><a class="black-text" href="#!">Windows</a></li>
+          <li><a href="#" class="black-text">Coding</a></li>
+          <li><a href="#" class="black-text">Design</a></li>
+          <li><a href="#" class="black-text">Wordpress</a></li>
         </ul>
-        <nav class="white">
+        <nav class="white z-depth-2">
         <div class="container">
           <div class="nav-wrapper">
-            <img id="logo" src="img/steel.png" alt="image">
-            <a href="#" data-target="mobile-nav" class="sidenav-trigger right"><i class="material-icons icon-blue">menu</i></a>
+            <img id="logo" src="img/logo.jpg" alt="image" href="#home">
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger right"><i class="material-icons icon-black">menu</i></a>
             <ul id="nav-list" class="right hide-on-med-and-down">
-                <li><a href="" class="black-text">Home</a></li>
-                <li><a class="dropdown-trigger black-text" href="#!" data-target="dropdown1">Products<i class="material-icons right">arrow_drop_down</i></a></li>
+                <li><a href="" class="black-text">Pricing</a></li>
+                <li><a class="dropdown-trigger black-text" href="#!" data-target="dropdown1">Services<i class="material-icons right">arrow_drop_down</i></a></li>
                 <li><a href="" class="black-text">FAQs</a></li>
                 <li><a href="" class="black-text">Contact Us</a></li>
-                <a class="btn waves-effect waves-light white-text  light-blue btn-large">FREE ESTIMATE</a>
+                <a class="btn waves-effect waves-light white-text teal accent-3 btn-large">Get Started</a>
             </ul>
           </div>
         </div>
@@ -42,61 +41,241 @@
 
     <!-- Sidenav -->
     <ul class="sidenav right" id="mobile-nav">
-      <li><a href="" class="black-text">Home</a></li>
-      <li><a href="#" class="black-text">Residential Garages</a></li>
-      <li><a href="#" class="black-text">Commercial Garages</a></li>
-      <li><a href="#" class="black-text">Entry Doors</a></li>
-      <li><a href="#" class="black-text">Windows</a></li>
+      <li><a href="" class="black-text">Pricing</a></li>
+      <li><a href="#" class="black-text">Coding</a></li>
+      <li><a href="#" class="black-text">Design</a></li>
+      <li><a href="#" class="black-text">Wordpress</a></li>
       <li><a href="#" class="black-text">FAQs</a></li>
       <li><a href="#" class="black-text">Contact Us</a></li>
-      <a class="btn waves-effect waves-light white-text  light-blue">FREE ESTIMATE</a>
+      <a class="btn waves-effect waves-light white-text  teal accent-3">Get Started</a>
     </ul>
 
-   <!-- Background -->
-   <section class="home" id="home">
-     <div class="container">
-      <div class="row row-home">
-        <div id="img-home" class="col s6 right">
-          <img src="img/home.png" alt="image">
-        </div>
-        <div id="capt" class="col s6 left">
-          <h3>Canyon Ridge® </h3>
-          <h3>Carriage House</h3>
-          <p class="grey-text">
-            The garage door is the gateway to your home. By choosing an Overhead Door™ 
-            residential garage door, you are doing more than making a home improvement investment
-          </p>
-          <div class="row">
-            <div class="phone-name col s6">
-              <label for="first_name" class="black-text">Name</label>
-              <div class="input-field">
-                <input placeholder="Enter Name" id="first_name" type="text" class="validate">
-              </div>
-            </div>
-            <div class="phone-no col s6">
-              <label for="phone_number" class="black-text">Phone Number</label>
-              <div class="input-field">
-                <input placeholder="Phone Number" id="phone_number" type="text" class="validate">
-              </div>
-            </div>
-            
-            <div class="email col s12">
-              <label for="email" class="black-text">Email</label>
-              <div class="input-field">
-                <input placeholder="Phone Number" id="email" type="text" class="validate">
-              </div>
-            </div>
+     <!-- Slider -->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="img/img1.jpg"> 
+          <div class="caption center-align">
+            <h5 class="light grey-text text-lighten-3 slider-capt">We are offering best services</h5>
+            <h3 class="slider-capt">Beautifully Coding & Design</h3>
+          </div>
+        </li>
 
-            <div class="button col s6">
-              <a class="waves-effect waves-light btn light-blue btn-large">Get Latest Updates</a>
+        <li>
+          <img src="img/img2.jpg"> 
+          <div class="caption center-align">
+            <h5 class="light grey-text text-lighten-3s lider-capt">We are offering best services</h5>
+            <h3 class="slider-capt">Beautifully Coding & Design</h3>
+          </div>
+        </li>
+
+        <li>
+          <img src="img/img3.jpg"> 
+          <div class="caption center-align">
+            <h5 class="light grey-text text-lighten-3 slider-capt">We are offering best services</h5>
+            <h3 class="slider-capt">Beautifully Coding & Design</h3>
+          </div>
+        </li>
+      </ul>
+    </div>
+        <!-- why us -->
+        <section class="why-us" id="why-us">
+          <div class="container">
+              <h4 class="center teal-text text-accent-3">Why Choose Us</h4>
+            <div class="row">
+
+              <div class="col s12 m3">
+                <div class="card-panel z-depth-4">
+                  <div class="center">
+                    <i class="large material-icons">thumb_up</i>
+                  </div>
+                  <div class="center">
+                    <span class="black-text"> <h5>Good Result</h5></span>
+                    <div class="center">
+                      <span>
+                        The results of our work are always satisfying 
+                        and get positive feedback from clients
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m3">
+                <div class="card-panel z-depth-4">
+                  <div class="center">
+                    <i class="large material-icons">access_alarms</i>
+                  </div>
+                  <div class="center">
+                    <span class="black-text"><h5>On-time</h5></span>
+                    <div class="center">
+                      <span>
+                        The results of our services are always on time and never exceed the deadline
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m3">
+                <div class="card-panel z-depth-4">
+                  <div class="center">
+                    <i class="large material-icons">flash_on</i>
+                  </div>
+                  <div class="center">
+                    <span class="black-text"><h5>Fast Work</h5></span>
+                    <div class="center">
+                      <span>
+                        Requests from clients are always done quickly 
+                        and precisely with good results
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m3">
+                <div class="card-panel z-depth-4">
+                   <div class="center">
+                    <i class="large material-icons">phone</i>
+                  </div>
+                  <div class="center">
+                    <span class="black-text"><h5>Easy Service</h5></span>
+                    <div class="center">
+                      <span>
+                        Our call center is open 24 hours and 
+                        always provides the best service for our troubled clients
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+        </section>
+
+        <!--Portfolio-->
+
+        <section class="portfolio" id="portfolio">
+          <div class="container">
+            <h4 class="center teal-text text-accent-3">Our Portfolios</h4>
+            <div class="row">
+              <div class="col m2 s6">
+                <img src="img/port1.jpg" alt="img" class="responsive-img z-depth-3 materialboxed">
+              </div>
+              <div class="col m2 s6">
+                <img src="img/port2.jpg" alt="img" class="responsive-img z-depth-3 materialboxed">
+              </div>
+              <div class="col m2 s6">
+                <img src="img/port3.jpg" alt="img" class="responsive-img z-depth-3 materialboxed">
+              </div>
+              <div class="col m2 s6">
+                <img src="img/port4.jpg" alt="img" class="responsive-img z-depth-3 materialboxed">
+              </div>
+              <div class="col m2 s6">
+                <img src="img/port5.jpg" alt="img" class="responsive-img z-depth-3 materialboxed">
+              </div>
+              <div class="col m2 s6">
+                <img src="img/port6.jpg" alt="img" class="responsive-img z-depth-3 materialboxed">
+              </div>
+
+              <div class="row">
+                <div class="col m2 s6">
+                  <img src="img/port2.jpg" alt="img" class="responsive-img z-depth-3 materialboxed">
+                </div>
+                <div class="col m2 s6">
+                  <img src="img/port6.jpg" alt="img" class="responsive-img z-depth-3 materialboxed">
+                </div>
+                <div class="col m2 s6">
+                  <img src="img/port5.jpg" alt="img" class="responsive-img z-depth-3 materialboxed">
+                </div>
+                <div class="col m2 s6">
+                  <img src="img/port3.jpg" alt="img" class="responsive-img z-depth-3 materialboxed">
+                </div>
+                <div class="col m2 s6">
+                  <img src="img/port1.jpg" alt="img" class="responsive-img z-depth-3 materialboxed">
+                </div>
+                <div class="col m2 s6">
+                  <img src="img/port4.jpg" alt="img" class="responsive-img z-depth-3 materialboxed">
+                </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-   </section>
+        </section>
+
+        <!-- contact us -->
+        <section class="contact grey lighten-3" id="contact">
+          <div class="container">
+            <h4 class="center teal-text text-accent-3">Contact Us</h4>
+
+            <div class="row">
+              <div class="col m5 s12">
+                <div class="card-panel teal accent-3 white-text center">
+                  <h5 class="contact-title">Contact</h5>
+                  <i class="material-icons small">email</i>
+                  <h6>team@astradigital.com</h6>
+                  <i class="material-icons small">local_phone</i>
+                  <h6>0876453290</h6>
+                </div>
+                  <ul class="collection with-header black-text">
+                    <li class="collection-header"><h4>Our Office</h4></li>
+                    <li class="collection-item">Astra Digital</li>
+                    <li class="collection-item">Jl.Makassar No. 9</li>
+                    <li class="collection-item">Sulawesi, Indonesia</li>
+                </ul>
+              </div>
+              <div class="col m7 s12">
+                <form>
+                  <div class="card-panel">
+                    <h5>Please Fill Out This Form</h5>
+                    <div class="input-field">
+                      <input id="first_name" type="text" name="name" class="validate" required>
+                      <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field">
+                      <input id="last_name" type="text" name="name" class="validate" required>
+                      <label for="last_name">Last Name</label>
+                    </div>
+                    <div class="input-field">
+                      <input id="email" type="email" name="email" class="validate" required>
+                      <label for="email">Email</label>
+                    </div>
+                    <div class="input-field">
+                      <input id="phone" type="text" name="phone" class="validate" required>
+                      <label for="phone">Phone Number</label>
+                    </div>
+                    <div class="input-field">
+                      <textarea id="textarea2" class="materialize-textarea" data-length="200" required></textarea>
+                      <label for="textarea2">Message</label>
+                    </div>
+                    <button type="submit" class="btn teal accent-3">Send Message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
   
+        <!-- footer -->
+          <footer class="page-footer teal accent-4">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Astra Digital</h5>
+                <p class="grey-text text-lighten-4">Astra Digital has been established since 2013 and has handled thousands of clients with satisfactory results.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Social Media</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container center">
+            <h6>Copyright © 2013 Astra Digital. All Rights Reserved</h6>
+            </div>
+          </div>
+        </footer>
    
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>
@@ -111,6 +290,21 @@
         document.addEventListener('DOMContentLoaded', function() {
         const sideNav = document.querySelectorAll('.sidenav');
         M.Sidenav.init(sideNav, {edge:'right'});
+      });
+        // Slider initialization
+        document.addEventListener('DOMContentLoaded', function() {
+        const slider = document.querySelectorAll('.slider');
+        M.Slider.init(slider, {
+          indicators: false,
+          height: 400,
+          duration: 500,
+          interval: 2000
+        });
+      });
+      // Materialbox initialization
+      document.addEventListener('DOMContentLoaded', function() {
+        const materialbox = document.querySelectorAll('.materialboxed');
+        M.Materialbox.init(materialbox);
       });
     </script>
   </body>
